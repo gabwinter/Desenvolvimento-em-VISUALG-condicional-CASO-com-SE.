@@ -7,7 +7,7 @@ Var
    esc, cvv, numeroCard, venc, nomeCard, usuario, pgto, band, editar: caractere
    doacao, saldo, outro: real
    conf: inteiro
-
+// Inicio do programa
 Inicio
    saldo <- 100
 
