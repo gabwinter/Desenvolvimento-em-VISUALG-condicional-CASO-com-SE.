@@ -1,9 +1,9 @@
 Algoritmo "semnome"
-// Disciplina   : LÛgica de ProgramaÁ„o
+// Disciplina   : L√≥gica de Programa√ß√£o
 // Professor    : Matheus
 
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis do codigo
    esc, cvv, numeroCard, venc, nomeCard, usuario, pgto, band, editar: caractere
    doacao, saldo, outro: real
    conf: inteiro
@@ -12,7 +12,7 @@ Inicio
    saldo <- 100
 
    escreval("==============================")
-   escreval("BEM VINDO AO CRIAN«A ESPERAN«A")
+   escreval("BEM VINDO AO CRIAN√áA ESPERAN√áA")
    escreval("==============================")
    tempo(800)
    limpatela
@@ -33,16 +33,16 @@ Inicio
    leia(esc)
    limpatela
 
-   escreval("PROCESSANDO OP«√O SELECIONADA...")
+   escreval("PROCESSANDO OP√á√ÉO SELECIONADA...")
    tempo(400)
    limpatela
 
    escolha esc
 //caso 1 - R$ 10,00
 caso "1"
-      escreval("ESCOLHA A OP«√O DE PAGAMENTO: ")
+      escreval("ESCOLHA A OP√á√ÉO DE PAGAMENTO: ")
       escreval("1 - PIX")
-      escreval("2 - CART√O DE CR…DITO")
+      escreval("2 - CART√ÉO DE CR√âDITO")
       leia(pgto)
       limpatela
 
@@ -54,41 +54,41 @@ caso "1"
          doacao <- 10
          saldo <- saldo + 10
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
 
       caso "2"
          conf <- 1
          enquanto (conf <> 2) faca
-            escreval("Digite a bandeira do cart„o: ")
+            escreval("Digite a bandeira do cart√£o: ")
             leia(band)
             limpatela
 
-            escreval("Digite o n˙mero do cart„o: ")
+            escreval("Digite o n√∫mero do cart√£o: ")
             leia(numeroCard)
             limpatela
 
-            escreval("Digite o nome expresso no cart„o: ")
+            escreval("Digite o nome expresso no cart√£o: ")
             leia(nomeCard)
             limpatela
 
-            escreval("Digite o CVV do cart„o: ")
+            escreval("Digite o CVV do cart√£o: ")
             leia(cvv)
             limpatela
 
-            escreval("Digite o vencimento do cart„o: ")
+            escreval("Digite o vencimento do cart√£o: ")
             leia(venc)
             limpatela
 
             escreval("CONFIRME SEUS DADOS:")
             escreval("BANDEIRA: ", band)
-            escreval("N⁄MERO CART√O: ", numeroCard)
-            escreval("NOME NO CART√O: ", nomeCard)
+            escreval("N√öMERO CART√ÉO: ", numeroCard)
+            escreval("NOME NO CART√ÉO: ", nomeCard)
             escreval("CVV: ", cvv)
             escreval("VENCIMENTO: ", venc)
             escreval
-            escreval("EST√O CORRETOS?")
-            escreval("[1] N√O")
+            escreval("EST√ÉO CORRETOS?")
+            escreval("[1] N√ÉO")
             escreval("[2] SIM")
             leia(conf)
          fimenquanto
@@ -97,14 +97,14 @@ caso "1"
          doacao <- 10
          saldo <- saldo + 10
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
          fimescolha
 //caso 2 - R$ 100,00
 caso "2"
-      escreval("ESCOLHA A OP«√O DE PAGAMENTO: ")
+      escreval("ESCOLHA A OP√á√ÉO DE PAGAMENTO: ")
       escreval("1 - PIX")
-      escreval("2 - CART√O DE CR…DITO")
+      escreval("2 - CART√ÉO DE CR√âDITO")
       leia(pgto)
       limpatela
 
@@ -116,41 +116,41 @@ caso "2"
          doacao <- 100
          saldo <- saldo + 100
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
 
       caso "2"
          conf <- 1
          enquanto (conf <> 2) faca
-            escreval("Digite a bandeira do cart„o: ")
+            escreval("Digite a bandeira do cart√£o: ")
             leia(band)
             limpatela
 
-            escreval("Digite o n˙mero do cart„o: ")
+            escreval("Digite o n√∫mero do cart√£o: ")
             leia(numeroCard)
             limpatela
 
-            escreval("Digite o nome expresso no cart„o: ")
+            escreval("Digite o nome expresso no cart√£o: ")
             leia(nomeCard)
             limpatela
 
-            escreval("Digite o CVV do cart„o: ")
+            escreval("Digite o CVV do cart√£o: ")
             leia(cvv)
             limpatela
 
-            escreval("Digite o vencimento do cart„o: ")
+            escreval("Digite o vencimento do cart√£o: ")
             leia(venc)
             limpatela
 
             escreval("CONFIRME SEUS DADOS:")
             escreval("BANDEIRA: ", band)
-            escreval("N⁄MERO CART√O: ", numeroCard)
-            escreval("NOME NO CART√O: ", nomeCard)
+            escreval("N√öMERO CART√ÉO: ", numeroCard)
+            escreval("NOME NO CART√ÉO: ", nomeCard)
             escreval("CVV: ", cvv)
             escreval("VENCIMENTO: ", venc)
             escreval
-            escreval("EST√O CORRETOS?")
-            escreval("[1] N√O")
+            escreval("EST√ÉO CORRETOS?")
+            escreval("[1] N√ÉO")
             escreval("[2] SIM")
             leia(conf)
          fimenquanto
@@ -159,14 +159,14 @@ caso "2"
          doacao <- 100
          saldo <- saldo + 100
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
          fimescolha
 //caso 3 - R$ 1000,00
 caso "3"
-      escreval("ESCOLHA A OP«√O DE PAGAMENTO: ")
+      escreval("ESCOLHA A OP√á√ÉO DE PAGAMENTO: ")
       escreval("1 - PIX")
-      escreval("2 - CART√O DE CR…DITO")
+      escreval("2 - CART√ÉO DE CR√âDITO")
       leia(pgto)
       limpatela
 
@@ -178,41 +178,41 @@ caso "3"
          doacao <- 1000
          saldo <- saldo + 1000
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
 
       caso "2"
          conf <- 1
          enquanto (conf <> 2) faca
-            escreval("Digite a bandeira do cart„o: ")
+            escreval("Digite a bandeira do cart√£o: ")
             leia(band)
             limpatela
 
-            escreval("Digite o n˙mero do cart„o: ")
+            escreval("Digite o n√∫mero do cart√£o: ")
             leia(numeroCard)
             limpatela
 
-            escreval("Digite o nome expresso no cart„o: ")
+            escreval("Digite o nome expresso no cart√£o: ")
             leia(nomeCard)
             limpatela
 
-            escreval("Digite o CVV do cart„o: ")
+            escreval("Digite o CVV do cart√£o: ")
             leia(cvv)
             limpatela
 
-            escreval("Digite o vencimento do cart„o: ")
+            escreval("Digite o vencimento do cart√£o: ")
             leia(venc)
             limpatela
 
             escreval("CONFIRME SEUS DADOS:")
             escreval("BANDEIRA: ", band)
-            escreval("N⁄MERO CART√O: ", numeroCard)
-            escreval("NOME NO CART√O: ", nomeCard)
+            escreval("N√öMERO CART√ÉO: ", numeroCard)
+            escreval("NOME NO CART√ÉO: ", nomeCard)
             escreval("CVV: ", cvv)
             escreval("VENCIMENTO: ", venc)
             escreval
-            escreval("EST√O CORRETOS?")
-            escreval("[1] N√O")
+            escreval("EST√ÉO CORRETOS?")
+            escreval("[1] N√ÉO")
             escreval("[2] SIM")
             leia(conf)
          fimenquanto
@@ -221,16 +221,16 @@ caso "3"
          doacao <- 1000
          saldo <- saldo + 1000
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
          fimescolha
 //caso 4 - OUTRO
 caso "4"
       escreval("DIGITE O VALOR QUE DESEJA DOAR: ")
       leia(outro)
-      escreval("ESCOLHA A OP«√O DE PAGAMENTO: ")
+      escreval("ESCOLHA A OP√á√ÉO DE PAGAMENTO: ")
       escreval("1 - PIX")
-      escreval("2 - CART√O DE CR…DITO")
+      escreval("2 - CART√ÉO DE CR√âDITO")
       leia(pgto)
       limpatela
 
@@ -242,41 +242,41 @@ caso "4"
          doacao <- outro
          saldo <- saldo + outro
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
 
       caso "2"
          conf <- 1
          enquanto (conf <> 2) faca
-            escreval("Digite a bandeira do cart„o: ")
+            escreval("Digite a bandeira do cart√£o: ")
             leia(band)
             limpatela
 
-            escreval("Digite o n˙mero do cart„o: ")
+            escreval("Digite o n√∫mero do cart√£o: ")
             leia(numeroCard)
             limpatela
 
-            escreval("Digite o nome expresso no cart„o: ")
+            escreval("Digite o nome expresso no cart√£o: ")
             leia(nomeCard)
             limpatela
 
-            escreval("Digite o CVV do cart„o: ")
+            escreval("Digite o CVV do cart√£o: ")
             leia(cvv)
             limpatela
 
-            escreval("Digite o vencimento do cart„o: ")
+            escreval("Digite o vencimento do cart√£o: ")
             leia(venc)
             limpatela
 
             escreval("CONFIRME SEUS DADOS:")
             escreval("BANDEIRA: ", band)
-            escreval("N⁄MERO CART√O: ", numeroCard)
-            escreval("NOME NO CART√O: ", nomeCard)
+            escreval("N√öMERO CART√ÉO: ", numeroCard)
+            escreval("NOME NO CART√ÉO: ", nomeCard)
             escreval("CVV: ", cvv)
             escreval("VENCIMENTO: ", venc)
             escreval
-            escreval("EST√O CORRETOS?")
-            escreval("[1] N√O")
+            escreval("EST√ÉO CORRETOS?")
+            escreval("[1] N√ÉO")
             escreval("[2] SIM")
             leia(conf)
          fimenquanto
@@ -285,14 +285,14 @@ caso "4"
          doacao <- outro
          saldo <- saldo + outro
          tempo(100)
-         escreval("AGRADECEMOS A SUA DOA«√O DE R$", doacao)
-         escreval("NOSSO SALDO ATUAL … DE R$", saldo)
+         escreval("AGRADECEMOS A SUA DOA√á√ÉO DE R$", doacao)
+         escreval("NOSSO SALDO ATUAL √â DE R$", saldo)
          fimescolha
 //caso 5 - sair
 caso "5"
-escreval("FINALIZANDO A LIGA«√O...")
+escreval("FINALIZANDO A LIGA√á√ÉO...")
 
 outrocaso
-escreval("OP«√O INVALIDA")
+escreval("OP√á√ÉO INVALIDA")
       fimescolha
 Fimalgoritmo
